@@ -1,11 +1,11 @@
 # Method 3(Recursion)
 
 # Defining function that calculates the factorial of number 'n' 
-def factorial3(n):
+def factorial(n):
     if n == 0:
         return 1
     
-    result = n * factorial3(n - 1)
+    result = n * factorial(n - 1)
     
     return result
 
@@ -14,4 +14,4 @@ def factorial3(n):
 x = int(input('Calculate factorial of: '))
 
 # Printing the factorial of the user's input
-print(factorial3(x))
+print(factorial(x))
