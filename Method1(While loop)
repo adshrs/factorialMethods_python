@@ -1,7 +1,7 @@
 # Method 1(While loop)
 
 # Defining function that calculates the factorial of number 'n' 
-def factorial1(n):
+def factorial(n):
     if n == 0:
         return 1
     
@@ -19,4 +19,4 @@ def factorial1(n):
 x = int(input('Calculate factorial of: '))
 
 # Printing the factorial of the user's input
-print(factorial1(x))
+print(factorial(x))
