@@ -1,0 +1,17 @@
+# Method 3(Recursion)
+
+# Defining function that calculates the factorial of number 'n' 
+def factorial3(n):
+    if n == 0:
+        return 1
+    
+    result = n * factorial3(n - 1)
+    
+    return result
+
+
+# Asking user for a number to initiate calculation
+x = int(input('Calculate factorial of: '))
+
+# Printing the factorial of the user's input
+print(factorial3(x))
